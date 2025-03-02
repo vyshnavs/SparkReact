@@ -1,0 +1,119 @@
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1f4e78, #18b7a0);
+    color: #fff;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.header p {
+    color: #f1f1f1;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.about-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e0e0e0;
+}
+.developer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.developer-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.developer-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.developer-info {
+    max-width: 600px;
+    text-align: left;
+}
+.developer-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffeb3b;
+    font-weight: 600;
+}
+.developer-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+.contact-section {
+    text-align: center;
+}
+.contact-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffeb3b;
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.contact-icons a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+    transition: color 0.3s;
+}
+.contact-icons a:hover {
+    color: #ffeb3b;
+}
+.contact-icons a .fas.fa-envelope {
+    color: #f44336;
+}
+.contact-icons a .fab.fa-instagram {
+    color: #e4405f;
+}
+.contact-icons a .fab.fa-whatsapp {
+    color: #25d366;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    margin-top: 50px;
+    border-top: 4px solid #ffeb3b;
+}
+.about-section p {
+    font-size: 100%;
+    color: #4b4b47;
+}
