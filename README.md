@@ -14,7 +14,7 @@ SparkReact is a personal project created for my classmates to help them perform 
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript, React
 - **Backend:** PHP (Initial version)
-- **Database:** MySQL (for storing feedback)
+- **Database:** MySQL (for storing feedback in initial version)
 - **Hosting Platforms:** Infinity Free (initial), GitHub Pages (React version)
 
 ## Installation
