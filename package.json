@@ -14,6 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://victorious-pond-0ab61e91e.4.azurestaticapps.net/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
