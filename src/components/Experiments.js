@@ -1,3 +1,4 @@
+import React from 'react';
 import './experiments.css';
 const Experiments = () =>{
     return(
