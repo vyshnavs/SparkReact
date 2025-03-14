@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { HashRouter as Router,Route,Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
 import Experiment from './components/Experiments';
