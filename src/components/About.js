@@ -31,20 +31,6 @@ const About = () =>{
             </div>
         </div>
 
-        <div class="contact-section">
-            <h3>Contact Us</h3>
-            <div class="contact-icons">
-                <a href="mailto:youremail@example.com" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://www.instagram.com/yourprofile" title="Instagram" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://wa.me/yourwhatsapplink" title="WhatsApp" target="_blank">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-            </div>
-        </div>
     </div>
 
     <div class="footer">

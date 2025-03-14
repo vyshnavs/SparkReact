@@ -9,6 +9,7 @@ import Exp2 from './components/experiment/Exp2';
 import Exp3 from './components/experiment/Exp3';
 import Exp4 from './components/experiment/Exp4';
 import Exp5 from './components/experiment/Exp5';
+import MathSolver from './components/MathSolver';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
       <Route path='/exp3' element={<Exp3/>}/>
       <Route path='/exp4' element={<Exp4/>}/>
       <Route path='/exp5' element={<Exp5/>}/>
+      <Route path='/mathssolver' element={<MathSolver/>}/>
+
     </Routes>
     </Router>
   );
