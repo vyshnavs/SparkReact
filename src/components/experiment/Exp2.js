@@ -91,6 +91,7 @@ const SlipTestCalculator = () => {
   };
 
   const calculatePAchara = () => {
+    // eslint-disable-next-line no-unused-vars
     const Ef2 = 276;
     const deltaRadians = parseFloat(delta2) * (Math.PI / 180);
     const p1 = (3 * 276 * 230 * Math.sin(deltaRadians)) / parseFloat(Xd2);

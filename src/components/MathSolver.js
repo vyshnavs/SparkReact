@@ -7,6 +7,7 @@ const MathSolver = () => {
     const [numFunctions, setNumFunctions] = useState('');
     const [variables, setVariables] = useState([]);
     const [functionNames, setFunctionNames] = useState([]);
+    // eslint-disable-next-line no-unused-vars
     const [equations, setEquations] = useState([]);
     const [results, setResults] = useState([]);
     const [showBanner, setShowBanner] = useState(true);
