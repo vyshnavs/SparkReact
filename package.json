@@ -41,11 +41,14 @@
       "last 1 safari version"
     ]
   },
-  "routes": [
-    {
-      "route": "/*",
-      "serve": "/index.html",
-      "statusCode": 200
-    }
-  ]
+  
+    "routes": [
+      {
+        "route": "/{*all}",
+        "serve": "/index.html",
+        "statusCode": 200
+      }
+    ]
+  
+  
 }
